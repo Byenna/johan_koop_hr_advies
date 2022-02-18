@@ -1,32 +1,35 @@
+# Johan Koop HR Advies
 
 This is a website portfolio commissioned by Johan Koop HRM (Human Research Management)
-<img src="/assets/images/logojohand.png">
-<img src="/assets/images/palette.png">
-
-/* CSS HEX */
---cadet-blue: #a4a7c0;
---cobalt: #044cac;
---steel-blue: #5b7eb8;
---danube: #7ca4d4;
---cerulean-blue: #2b67bc;
---indigo: #3c74c0;
+<img src="/assets/images/screenshot.png">
 
 
-/* SCSS HEX */
-$cadet-blue: #a4a7c0;
-$cobalt: #044cac;
-$steel-blue: #5b7eb8;
-$danube: #7ca4d4;
-$cerulean-blue: #2b67bc;
-$indigo: #3c74c0;
+# Feel free to collaborate! 
+
+1 Create a Fork
+Simply click on the “fork” button of the repository page on GitHub.
+
+2 Clone your Fork
+The standard clone command creates a local git repository from your remote fork on GitHub.
+
+3 Type into your terminal:<br>
+<i>- git clone https://github.com/USERNAME/REPOSITORY.git</i><br>
+<i>- npm install</i><br>
+
+Modify the Code
+In your local clone, modify the code and commit them to your local clone using the git commit command.
+
+4 Push your Changes
+In your workspace, use the git push command to upload your changes to your remote fork on GitHub.
+
+5 Create a Pull Request
+On the GitHub page of your remote fork, click the “pull request” button. Wait for me to merge or comment your changes and be proud when it is merged :). If I suggest some changes before merging, you can simply push these changes into your fork by repeating steps #3 and #4 and the pull request is updated automatically.
+<br>
+<img src="/assets/images/website_images/happy_coding.gif" width="200">
 
 
-/* SCSS RGB */
---cadet-blue: rgba(164,167,192,1);
---cobalt: rgba(4,76,172,1);
---steel-blue: rgba(91,126,184,1);
---danube: rgba(124,164,212,1);
---cerulean-blue: rgba(43,103,188,1);
---indigo: rgba(60,116,192,1);
+
+
+
 
 
