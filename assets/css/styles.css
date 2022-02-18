@@ -40,12 +40,17 @@ p {
   opacity: 1;
 }
 
-.hoofd_johan {
+.images_over_mij {
   border-radius: 3%;
   border-color: #777;
   border-width: 2px;
   border-style: solid;
   float: right;
+  transition: all 1.5s;
+}
+
+.images_over_mij:hover {
+  transform: scale(1.5);
 }
 
 .bekwaamheden_img {

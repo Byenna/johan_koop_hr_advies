@@ -1,310 +1,343 @@
 <!DOCTYPE html>
 <html>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Johan Koop HR Advies</title>
+    <title>Johan Koop HR Advies</title>
 
-<link rel="icon" href="/assets/images/logojohand.png">
+    <link rel="icon" href="/assets/images/logojohand.png">
 
-<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
-<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="/node_modules/w3-css/4/w3pro.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/w3-css/4/w3pro.css">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
 
-
-<style>
-
-</style>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-     
-    </a>
-    <a href="#home" class=" w3-bar-item w3-button"><p class="nav_text">HOME</p></a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> <p class="nav_text">OVER MIJ</p></a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> <p class="nav_text">BEKWAAMHEDEN</p></a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"></i> <p class="nav_text">CONTACT</p></a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-     
-    </a>
-  </div>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            </a>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">OVER MIJ</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">BEKWAAMHEDEN</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-  </div>
-</div>
+            <a href="#home" class=" w3-bar-item w3-button">
+                <p class="nav_text">HOME</p>
+            </a>
 
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-blue-grey w3-padding-large w3-xlarge w3-wide ">HR ADVIES<span class="w3-hide-small"> JOHAN KOOP</span> </span>
-  </div>
-</div>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small">
+                <p class="nav_text">OVER MIJ</p>
+            </a>
 
-<!-- Container (About Section) -->
-<div class="w3-content  " id="about">
-  <h3 class="w3-center">Over mij</h3>
-  <p class="w3-center"><em>Welkom op mijn website</em></p>
-  <p><em>Mensen bedenken organisaties, ontwerpen organisaties, werken in organisaties en leven in organisaties</em></p>
-  <p>Bijna alles om ons heen is op de een of andere manier georganiseerd. Soms is het ontwerp nog efficiënt, soms achterhaald en behoeft het bijstelling.
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
+                <p class="nav_text">BEKWAAMHEDEN</p>
+            </a>
 
-    Organisaties boeien mij erg. Al wandelend neem ik de ruimte om goed te kijken en erover na te denken.
-    
-    Organiseren om op een zo doelmatig mogelijke manier resultaten te bereiken. En de mens is nog altijd de cruciale factor. Het kloppend hart.
-  </p>
-  <div class="w3-content w3-container w3-padding-64">
-    <hr>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"></i>
+                <p class="nav_text">CONTACT</p>
+            </a>
+
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">OVER MIJ</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">BEKWAAMHEDEN</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
     </div>
 
-  <div class="section px-4 w3-center">  <img src="/assets/images/werk_cirkel.png" class="hoofd_johan w3-image" alt="Photo of Me" >
-       <p><b><i ></i>Organiseren</b></p>
-      <p>Mensen in je organisatie maken het verschil in het realiseren van organisatiedoelen. Het optimaliseren van alle bedrijfsprocessen geeft voordeel.
-
-        Maar als je het perspectief van de organisatie weet af te stemmen op het perspectief van medewerkers biedt dat strategisch voordeel en moeilijk kopieerbaar.
-        
-        Soms werkt eenvoudig klassiek organiseren verrassend goed. Maar vaker moet jouw organisatie meebewegen met fundamentele ontwikkelingen zoals nieuwe technologie.
-        
-        Het loont daarin vroegtijdig te investeren. Maar hoe onderscheid je fundamentele wijzigingen van de hypes die vaak voorbij komen.</p>
-      </div>
-
-
-       <div class="section px-4 w3-center">  <img src="/assets/images/arbeids_cirkel.jpg" class="hoofd_johan w3-image" alt="Photo of Me" >
-        <p><b><i ></i>The value profit chain</b></p>
-        <p>Ik heb jarenlang in het HR vak gewerkt. Fusies en reorganisaties meegemaakt en onderdelen uitgewerkt en begeleid. Ik heb veel in zorgorganisaties gewerkt.
-
-        Begonnen als leerling verpleegkundige. Ik ken het werk vanuit de basis. In 2021 ben ik gestart met mijn eigen HR adviespraktijk.
-        
-         
-        
-        Ik denk graag met u mee in organisatievraagstukken, groot of klein, om te kijken of de waarde-prestatieketen beter kan.
-        
-        Maar kan u ook ondersteunen bij projecten of praktische werkzaamheden als HR adviseur waar u even niet aan toe komt. Ik ben veelzijdig opgeleid.</p>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-blue-grey w3-padding-large w3-xlarge w3-wide ">
+                HR ADVIES
+                <span class="w3-hide-small"> JOHAN KOOP</span>
+            </span>
+        </div>
     </div>
 
-    
-    
+    <!-- Container (About Section) -->
+    <div class="w3-content  " id="about">
+        <h3 class="w3-center">Over mij</h3>
 
-<div><p>Neem gerust vrijblijvend contact op. Waar nodig neem ik even de tijd voor een goede inventarisatie van de vraag en analyse van knelpunten en mogelijkheden.
+        <p class="w3-center">
+            <em>Welkom op mijn website</em>
+        </p>
 
-  Op basis daarvan kan ik aangeven of ik iets kan betekenen en als dit zo is doe ik een passend voorstel. Vooral praktisch als het kan, maar ook scherp doordenken als dat nodig is.
-  
-  Bij complexiteit is mijn motto: vertraging aan de voorkant is vaak de versnelling aan de achterkant.</p></div>
+        <p>
+            <em>Mensen bedenken organisaties, ontwerpen organisaties, werken in organisaties en leven in
+                organisaties</em>
+        </p>
 
-  </div>
+        <p>Bijna alles om ons heen is op de een of andere manier georganiseerd. Soms is het ontwerp nog efficiënt, soms
+            achterhaald en behoeft het bijstelling.
 
-<div class="w3-content w3-container w3-padding-64">
-<hr>
-</div>
+            Organisaties boeien mij erg. Al wandelend neem ik de ruimte om goed te kijken en erover na te denken.
 
-  <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">Mijn bekwaamheden</h3>
- 
-  
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/interim.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-             <div class="overlay">
-          <div class="text ">Interim HR werkzaamheden.</div>
+            Organiseren om op een zo doelmatig mogelijke manier resultaten te bereiken. En de mens is nog altijd de
+            cruciale
+            factor. Het kloppend hart.
+        </p>
+
+        <div class="w3-content w3-container w3-padding-64">
+            <hr>
         </div>
-      </div>
-  
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/commissies.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-         <div class="overlay">
-          <div class="text">Commissies zoals een interne bezwarencommissie (IBC) en commissie sociale begeleiding</div>
+
+        <div class="section px-4 w3-center">
+            <img src="/assets/images/werk_cirkel.png" class="images_over_mij w3-image" alt="Photo of Me">
+            <p>
+                <b>Organiseren</b>
+            </p>
+            <p>Mensen in je organisatie maken het verschil in het realiseren van organisatiedoelen. Het optimaliseren
+                van alle
+                bedrijfsprocessen geeft voordeel.
+
+                Maar als je het perspectief van de organisatie weet af te stemmen op het perspectief van medewerkers
+                biedt dat
+                strategisch voordeel en moeilijk kopieerbaar.
+
+                Soms werkt eenvoudig klassiek organiseren verrassend goed. Maar vaker moet jouw organisatie meebewegen
+                met
+                fundamentele ontwikkelingen zoals nieuwe technologie.
+
+                Het loont daarin vroegtijdig te investeren. Maar hoe onderscheid je fundamentele wijzigingen van de
+                hypes die
+                vaak voorbij komen.
+            </p>
         </div>
-      </div>
-  
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/arbeidsvreugde.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-        <div class="overlay">
-          <div class="text">Coach Bronnen van arbeidsvreugde</div>
+
+        <div class="section px-4 w3-center">
+            <img src="/assets/images/arbeids_cirkel.jpg" class="images_over_mij w3-image" alt="Photo of Me">
+
+            <p>
+                <b>The value profit chain</b>
+            </p>
+
+            <p>Ik heb jarenlang in het HR vak gewerkt. Fusies en reorganisaties meegemaakt en onderdelen uitgewerkt en
+                begeleid. Ik heb veel in zorgorganisaties gewerkt.
+
+                Begonnen als leerling verpleegkundige. Ik ken het werk vanuit de basis. In 2021 ben ik gestart met mijn
+                eigen HR
+                adviespraktijk.
+
+                Ik denk graag met u mee in organisatievraagstukken, groot of klein, om te kijken of de
+                waarde-prestatieketen
+                beter kan.
+
+                Maar kan u ook ondersteunen bij projecten of praktische werkzaamheden als HR adviseur waar u even niet
+                aan toe
+                komt. Ik ben veelzijdig opgeleid.
+            </p>
         </div>
-      </div>
-   
-   <div class="container w3-col m3">
-    <img class="bekwaamheden_img" src="/assets/images/projecten.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-        <div class="overlay">
-          <div class="text">Ondersteuning bij projecten</div>
+
+        <div>
+            <p>Neem gerust vrijblijvend contact op. Waar nodig neem ik even de tijd voor een goede inventarisatie van de
+                vraag
+                en analyse van knelpunten en mogelijkheden.
+
+                Op basis daarvan kan ik aangeven of ik iets kan betekenen en als dit zo is doe ik een passend voorstel.
+                Vooral
+                praktisch als het kan, maar ook scherp doordenken als dat nodig is.
+
+                Bij complexiteit is mijn motto: vertraging aan de voorkant is vaak de versnelling aan de achterkant.
+            </p>
         </div>
-      </div>
     </div>
-  
-    <div class="w3-row-padding w3-center w3-section">
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/vraagstukken.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-        <div class="overlay">
-          <div class="text">Vraagstukken over management en organisatie</div>
-        </div>
-      </div>
-  
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/onderhoud.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-        <div class="overlay">
-          <div class="text">Opzetten en onderhouden van Sociale plannen</div>
-        </div>
-      </div>
-  
-      <div class="container w3-col m3">
-        <img class="bekwaamheden_img" src="/assets/images/handshake.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-        <div class="overlay">
-          <div class="text">Conflictbemiddeling</div>
-        </div>
-      </div>
-  
-      <div class="bekwaamheden_img container w3-col m3">
-        <img src="/assets/images/FWG.jpg" style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-        <img src="/assets/images/hr21.png" style="width:50%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-        <div class="overlay">
-          
-          <div class="text">vakbekwaam toepasser FWG en HR21</div>
-        </div>
-      </div>
+
+    <div class="w3-content w3-container w3-padding-64">
+        <hr>
     </div>
-  </div>
-  
-  
-</div>
 
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">Mijn bekwaamheden</h3>
 
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/interim.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                <div class="overlay">
+                    <div class="text ">Interim HR werkzaamheden.</div>
+                </div>
+            </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">VISIE</span>
-  </div>
-</div>
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/commissies.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                <div class="overlay">
+                    <div class="text">Commissies zoals een interne bezwarencommissie (IBC) en commissie sociale
+                        begeleiding</div>
+                </div>
+            </div>
 
-<!-- Container (Portfolio Section) -->
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/arbeidsvreugde.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                <div class="overlay">
+                    <div class="text">Coach Bronnen van arbeidsvreugde</div>
+                </div>
+            </div>
 
-
-<div class="w3-content w3-container w3-padding-64" >
-  <h3 class="w3-center">Mijn Visie</h3>
-    <p >
-    Organisaties zijn bewust gecreëerde samenwerkingsvormen om gestelde doelen te bereiken. Je medewerkers vormt daarin de belangrijkste schakel voor het succes. Een verbindende factor is een collectieve ambitie. Er samen voor gaan geeft positieve energie.
-    
-    Ik hou van metaforen en spreuken. Die kunnen vaak verrassend verhelderend zijn. Vergelijk organisaties bijvoorbeeld met een stromend riviertje zoals op de foto. Er is voortdurend beweging. Elke dag is weer nieuw, ook al lijkt die nog zoveel op de vorige. Je hebt maar beperkt invloed op de input.
-    
-    </p>
- 
-    </div>
-  </div>
-
-
-
-</div>
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">STRATEGISCH</span>
-  </div>
-</div>
-
-<div class="w3-content w3-container w3-padding-64" >
-
-<p> Je organisatie is onderdeel van een groter geheel. Er zijn kaders maar die kaders zijn duidelijk niet van beton. Bij snel stromend water (andere input, meer dynamiek) is het mogelijk om mogelijk om het water buiten de vaste kaders te stromen. En toch uiteindelijk in de juiste richting en focus behouden.
-
-Een organisatie is succesvol als vakbekwame medewerkers de dynamiek aanvoelen en het vertrouwen krijgen om naar bevind te handelen. Met de collectieve ambitie voor ogen.
-
-Werken doe je samen. Combineer het organisatieperspectief met het individueel perspectief. En stroom samen. Vloeiend en doelgericht onder de wisselende omstandigheden. Goed presteren en werken met plezier.<br>
-
-Samen succesvol zijn!</p>
-<hr>
-
-
-
-
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class=" w3-padding-64" id="contact">
-  <h3 class="w3-center">Neemt u gerust contact op voor een vrijblijvende afspraak</h3>
-  <!-- <p class="w3-center"><em>I'd love your feedback!</em></p> -->
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="/assets/images/logojohand.png" class="logo w3-image w3-round">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Johan Rengerssingel 53<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a href="tel:+31-53251322">06-53251322</a><br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> johankoophradvies@kpnmail.nl<br>
-      </div>
-      <form action="https://formsubmit.co/1be44ebfcbe843ad753cff2ca315f5cf" method="POST">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Naam" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/projecten.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                <div class="overlay">
+                    <div class="text">Ondersteuning bij projecten</div>
+                </div>
+            </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Bericht" required name="Message">
-        <button class="w3-button w3-blue-grey w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> VERSTUUR BERICHT
-        </button>
-      </form> 
-       
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/vraagstukken.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                <div class="overlay">
+                    <div class="text">Vraagstukken over management en organisatie</div>
+                </div>
+            </div>
+
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/onderhoud.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+                <div class="overlay">
+                    <div class="text">Opzetten en onderhouden van Sociale plannen</div>
+                </div>
+            </div>
+
+            <div class="container w3-col m3">
+                <img class="bekwaamheden_img" src="/assets/images/handshake.png" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+                <div class="overlay">
+                    <div class="text">Conflictbemiddeling</div>
+                </div>
+            </div>
+
+            <div class="bekwaamheden_img container w3-col m3">
+                <img src="/assets/images/FWG.jpg" style="width:50%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Sailing">
+                <img src="/assets/images/hr21.png" style="width:50%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Sailing">
+                <div class="overlay">
+
+                    <div class="text">vakbekwaam toepasser FWG en HR21</div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-center w3-blue-grey w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Naar boven</a>
-  <div class="w3-xlarge w3-section">
-  
-   
-  </div> <p>Raadpleeg mijn Linked <a href="https://www.linkedin.com/in/johan-koop-4097172/?originalSubdomain=nl" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a> pagina voor meer info over mijn loopbaan.</p>
-  <p>Website is gemaakt door <a href="https://github.com/Byenna" target="_blank" class="w3-hover-text-green">Juraia Pinas</a> Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">VISIE</span>
+        </div>
+    </div>
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center">Mijn Visie</h3>
+        <p>
+            Organisaties zijn bewust gecreëerde samenwerkingsvormen om gestelde doelen te bereiken. Je medewerkers vormt
+            daarin de belangrijkste schakel voor het succes. Een verbindende factor is een collectieve ambitie. Er samen
+            voor
+            gaan geeft positieve energie.
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+            Ik hou van metaforen en spreuken. Die kunnen vaak verrassend verhelderend zijn. Vergelijk organisaties
+            bijvoorbeeld met een stromend riviertje zoals op de foto. Er is voortdurend beweging. Elke dag is weer
+            nieuw, ook
+            al lijkt die nog zoveel op de vorige. Je hebt maar beperkt invloed op de input.
+        </p>
 
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">STRATEGISCH</span>
+        </div>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64">
+
+        <p> Je organisatie is onderdeel van een groter geheel. Er zijn kaders maar die kaders zijn duidelijk niet van
+            beton.
+            Bij snel stromend water (andere input, meer dynamiek) is het mogelijk om mogelijk om het water buiten de
+            vaste
+            kaders te stromen. En toch uiteindelijk in de juiste richting en focus behouden.
+
+            Een organisatie is succesvol als vakbekwame medewerkers de dynamiek aanvoelen en het vertrouwen krijgen om
+            naar
+            bevind te handelen. Met de collectieve ambitie voor ogen.
+
+            Werken doe je samen. Combineer het organisatieperspectief met het individueel perspectief. En stroom samen.
+            Vloeiend en doelgericht onder de wisselende omstandigheden. Goed presteren en werken met plezier.<br>
+
+            Samen succesvol zijn!</p>
+        <hr>
+    </div>
+
+
+    <!-- Container (Contact Section) -->
+    <div class=" w3-padding-64" id="contact">
+        <h3 class="w3-center">Neemt u gerust contact op voor een vrijblijvende afspraak</h3>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="/assets/images/logojohand.png" class="logo w3-image w3-round">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Johan
+                    Rengerssingel 53<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a
+                        href="tel:+31-53251322">06-53251322</a><br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+                    johankoophradvies@kpnmail.nl<br>
+                </div>
+                <form action="https://formsubmit.co/1be44ebfcbe843ad753cff2ca315f5cf" method="POST">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Naam" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Bericht" required name="Message">
+
+                    <button class="w3-button w3-blue-grey w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> VERSTUUR BERICHT
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-blue-grey w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Naar boven</a>
+        <div class="w3-xlarge w3-section"></div>
+        <p>Raadpleeg mijn Linked <a href="https://www.linkedin.com/in/johan-koop-4097172/?originalSubdomain=nl"
+                target="_blank" class="fa fa-linkedin w3-hover-opacity"></a> pagina voor meer info over mijn loopbaan.
+        </p>
+        <p>Website is gemaakt door <a href="https://github.com/Byenna" target="_blank"
+                class="w3-hover-text-green">Juraia Pinas</a> Powered by <a
+                href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a>
+        </p>
+    </footer>
+
+    <script src="/assets/js/main.js"> </script>
 </body>
+
 </html>
